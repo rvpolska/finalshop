@@ -1,0 +1,22 @@
+@keyframes cat-walk {
+    0% {
+      transform: translateX(-100px);
+    }
+    50% {
+      transform: translateX(900px) rotateY(0deg);
+    }
+    100% {
+      transform: translateX(-10000px);
+    }
+  }
+  
+  .cat {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: url('https://pic.chinesefontdesign.com/uploads/2018/02/chinesefontdesign.com-2018-02-13_08-40-29_817346.gif') no-repeat;
+    animation: cat-walk 8s ease-in-out ;
+    animation-iteration-count:1;
+    
+  }
+  
